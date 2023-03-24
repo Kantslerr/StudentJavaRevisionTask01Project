@@ -26,6 +26,10 @@ package by.itstep.javatraining.revision.task;
 
 public class Task04 {
     public static int task04(int number) {
-        return 0;
+        if (number / 100 == 0){
+            return 0;
+        }else {
+            return Math.abs((number / 100) % 10);
+        }
     }
 }
